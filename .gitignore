@@ -1,0 +1,104 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+*.pdb
+
+# Cargo lock file (keep for binaries, ignore for libraries)
+# Cargo.lock
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS metadata
+._*
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.atramp
+
+# Editor and IDE files
+# VSCode
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA / CLion / RustRover
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Vim
+*.swp
+*.swo
+*~
+.*.sw?
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Visual Studio Code
+.history/
+
+# Model files and directories
+# Add your model directories here to avoid committing large files
+models/
+*.safetensors
+*.mlxpack
+*.gguf
+*.bin
+
+# Python virtual environments (for mlx-lm tools)
+venv/
+env/
+ENV/
+.venv/
+*.pyc
+__pycache__/
+
+# Test outputs
+test_outputs/
+output/
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Backup files
+*.bak
+*.backup
+
+# Local configuration
+.env
+.env.local
+
+# Documentation build artifacts
+/book/
+/docs/_build/
+
+# Profiling data
+*.profdata
+*.profraw
+perf.data*
+
+# Flamegraph outputs
+flamegraph.svg
+perf.data.old
+
+# Benchmarking results
+criterion/
