@@ -53,7 +53,6 @@ out/
 
 # Model files and directories
 # Add your model directories here to avoid committing large files
-models/
 *.safetensors
 *.mlxpack
 *.gguf
